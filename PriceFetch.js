@@ -8,7 +8,7 @@ const {
 const { erc20ABI, factoryABI, pairABI, routerABI } = require("./AbiInfo");
 
 const provider = new ethers.providers.JsonRpcProvider(
-    "https://bsc-dataseed1.binance.org/"
+    "https://eth-mainnet.g.alchemy.com/v2/IJ4LZSycj4nEx6txqXK0zEZnRYnahyF5"
 )
 
 const factoryInstance = new ethers.Contract(
